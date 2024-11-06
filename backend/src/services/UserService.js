@@ -43,7 +43,7 @@ const loginUser = (userLogin) => {
                 email: email,
             });
             if (checkUser === null) {
-                resolve({
+                return reject({
                     status: "ERR",
                     message: "The user is not defined",
                 });
@@ -54,7 +54,7 @@ const loginUser = (userLogin) => {
             );
 
             if (!comparePassword) {
-                resolve({
+                return reject({
                     status: "ERR",
                     message: "The password or username is incorrect",
                 });
@@ -69,7 +69,7 @@ const loginUser = (userLogin) => {
                 isAdmin: checkUser.isAdmin,
             });
 
-            resolve({
+            return resolve({
                 status: "OK",
                 message: "SUCCESS",
                 access_token,
@@ -108,8 +108,32 @@ const updateUser = (id, data) => {
     });
 };
 
+const getDetailsUser = (id) => {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const user = await User.findOne({
+                _id: id,
+            });
+            if (user === null) {
+                resolve({
+                    status: "ERR",
+                    message: "The user is not defined",
+                });
+            }
+            resolve({
+                status: "OK",
+                message: "SUCESS",
+                data: user,
+            });
+        } catch (e) {
+            reject(e);
+        }
+    });
+};
+
 module.exports = {
     createUser,
     loginUser,
     updateUser,
+    getDetailsUser,
 };
