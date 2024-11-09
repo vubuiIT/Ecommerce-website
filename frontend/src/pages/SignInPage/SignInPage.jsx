@@ -11,7 +11,7 @@ import * as UserService from '../../services/UserService'
 import { useMutationHooks } from '../../hooks/useMutationHooks'
 import Loading from '../../components/LoadingComponent/LoadingComponent'
 import jwt_decode from "jwt-decode";
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch} from 'react-redux'
 import { updateUser } from '../../redux/slices/userSlice'
 import { message } from 'antd'
 
@@ -22,7 +22,7 @@ const SignInPage = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const dispatch = useDispatch();
-  const user  = useSelector((state) => state.user)
+ 
 
   const navigate = useNavigate()
 

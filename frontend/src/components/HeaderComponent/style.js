@@ -5,9 +5,8 @@ import styled from "styled-components";
 export const WrapperHeader = styled(Row)`
     background-color: #3397f3;
     align-items: center;
-    gap: 16px;
     flex-wrap: nowrap;
-    width: 1270px;
+    width: 100%;
     padding: 10px 0;
 `;
 
@@ -15,18 +14,14 @@ export const WrapperTextHeader = styled(Link)`
     font-size: 18px;
     color: #fff;
     font-weight: bold;
-    text-align: left;
-    &:hover {
-        font-size: 18px;
-        color: #fff;
-    }
+    margin-left: 40px;
 `;
 
 export const WrapperHeaderAccout = styled.div`
     display: flex;
     align-items: center;
     color: #fff;
-    gap: 10px;
+    margin-left: 20px;
     max-width: 200px;
 `;
 

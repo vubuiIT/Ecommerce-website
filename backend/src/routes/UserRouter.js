@@ -14,5 +14,7 @@ router.get(
     authUserMiddleWare,
     userController.getDetailsUser
 );
+router.post("/refresh-token", userController.refreshToken);
+router.post("/log-out", userController.logoutUser);
 
 module.exports = router;
