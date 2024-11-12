@@ -88,7 +88,7 @@ const updateUser = (id, data) => {
                 _id: id,
             });
             if (checkUser === null) {
-                resolve({
+                return reject({
                     status: "ERR",
                     message: "The user is not defined",
                 });
