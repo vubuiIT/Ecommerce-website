@@ -38,13 +38,12 @@ const createUser = (newUser) => {
 const loginUser = (userLogin) => {
     return new Promise(async (resolve, reject) => {
         const { email, password } = userLogin;
-        // console.log(email,password)
         try {
             const checkUser = await User.findOne({
                 email: email,
             });
             if (checkUser === null) {
-                resolve({
+                return reject({
                     status: "ERR",
                     message: "The user is not defined",
                 });
@@ -53,8 +52,9 @@ const loginUser = (userLogin) => {
                 password,
                 checkUser.password
             );
+
             if (!comparePassword) {
-                resolve({
+                return reject({
                     status: "ERR",
                     message: "The password or username is incorrect",
                 });
@@ -63,11 +63,13 @@ const loginUser = (userLogin) => {
                 id: checkUser.id,
                 isAdmin: checkUser.isAdmin,
             });
+
             const refresh_token = await generateRefreshToken({
                 id: checkUser.id,
                 isAdmin: checkUser.isAdmin,
             });
-            resolve({
+
+            return resolve({
                 status: "OK",
                 message: "SUCCESS",
                 access_token,
@@ -79,7 +81,117 @@ const loginUser = (userLogin) => {
     });
 };
 
+const updateUser = (id, data) => {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const checkUser = await User.findOne({
+                _id: id,
+            });
+            if (checkUser === null) {
+                return reject({
+                    status: "ERR",
+                    message: "The user is not defined",
+                });
+            }
+
+            const updatedUser = await User.findByIdAndUpdate(id, data, {
+                new: true,
+            });
+            resolve({
+                status: "OK",
+                message: "SUCCESS",
+                data: updatedUser,
+            });
+        } catch (e) {
+            reject(e);
+        }
+    });
+};
+
+const getDetailsUser = (id) => {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const user = await User.findOne({
+                _id: id,
+            });
+            if (user === null) {
+                resolve({
+                    status: "ERR",
+                    message: "The user is not defined",
+                });
+            }
+            resolve({
+                status: "OK",
+                message: "SUCESS",
+                data: user,
+            });
+        } catch (e) {
+            reject(e);
+        }
+    });
+};
+
+const getAllUser = () => {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const allUser = await User.find().sort({
+                createdAt: -1,
+                updatedAt: -1,
+            });
+            resolve({
+                status: "OK",
+                message: "Success",
+                data: allUser,
+            });
+        } catch (e) {
+            reject(e);
+        }
+    });
+};
+
+const deleteUser = (id) => {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const checkUser = await User.findOne({
+                _id: id,
+            });
+            if (checkUser === null) {
+                return reject({
+                    status: "ERR",
+                    message: "The user is not defined",
+                });
+            }
+
+            await User.findByIdAndDelete(id);
+            resolve({
+                status: "OK",
+                message: "Delete user success",
+            });
+        } catch (e) {
+            reject(e);
+        }
+    });
+};
+
+const deleteManyUser = (ids) => {
+    return new Promise(async (resolve, reject) => {
+        try {
+            await User.deleteMany({ _id: ids });
+            resolve({
+                status: "OK",
+                message: "Delete user success",
+            });
+        } catch (e) {
+            reject(e);
+        }
+    });
+};
 module.exports = {
     createUser,
     loginUser,
+    updateUser,
+    getDetailsUser,
+    getAllUser,
+    deleteUser,
+    deleteManyUser,
 };
