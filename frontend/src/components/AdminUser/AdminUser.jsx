@@ -4,14 +4,14 @@ import { WrapperHeader, WrapperUploadFile } from "./style";
 import TableComponent from "../TableComponent/TableComponent";
 import InputComponent from "../InputComponent/InputComponent";
 import DrawerComponent from "../DrawerComponent/DrawerComponent";
-import Loading from "../LoadingComponent/LoadingComponent";
+import Loading from "../LoadingComponent/Loading";
 import ModalComponent from "../ModalComponent/ModalComponent";
 import { getBase64 } from "../../utils";
 import { useEffect } from "react";
 import { message } from "antd";
 import { useState, useRef } from "react";
 import { useSelector } from "react-redux";
-import { useMutationHooks } from "../../hooks/useMutationHooks";
+import { useMutationHooks } from "../../hooks/useMutationHook";
 import * as UserService from "../../services/UserService";
 import { useIsFetching, useQueryClient } from "@tanstack/react-query";
 import {

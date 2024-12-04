@@ -1,6 +1,6 @@
 import { Table } from "antd";
 import React, { useState } from "react";
-import Loading from "../../components/LoadingComponent/LoadingComponent";
+import Loading from "../LoadingComponent/Loading";
 import { Excel } from "antd-table-saveas-excel";
 import { useMemo } from "react";
 

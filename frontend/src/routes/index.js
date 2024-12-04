@@ -3,6 +3,9 @@ import SignInPage from "../pages/SignInPage/SignInPage";
 import SignUpPage from "../pages/SignUpPage/SignUpPage";
 import AdminPage from "../pages/AdminPage/AdminPage";
 import ProfilePage from "../pages/ProfilePage/ProfilePage";
+import OrderPage from "../pages/OrderPage/OrderPage";
+import MyOrderPage from "../pages/MyOrder/MyOrder";
+import ProductDetailsPage from "../pages/ProductDetailsPage/ProductDetailsPage";
 
 export const routes = [
     {
@@ -29,5 +32,20 @@ export const routes = [
         path: "/profile-user",
         page: ProfilePage,
         isShowHeader: true,
+    },
+    {
+        path: '/order',
+        page: OrderPage,
+        isShowHeader: true
+    },
+    {
+        path: '/my-order',
+        page: MyOrderPage,
+        isShowHeader: true
+    },
+    {
+        path: '/product-details/:id',
+        page: ProductDetailsPage,
+        isShowHeader: true
     },
 ];

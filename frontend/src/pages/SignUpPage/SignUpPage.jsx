@@ -7,9 +7,9 @@ import { Image } from 'antd'
 import { useState, useEffect } from 'react'
 import { EyeFilled, EyeInvisibleFilled } from '@ant-design/icons'
 import { useNavigate } from 'react-router-dom'
-import { useMutationHooks } from '../../hooks/useMutationHooks'
+import { useMutationHooks } from '../../hooks/useMutationHook'
 import * as UserService from '../../services/UserService'
-import Loading from '../../components/LoadingComponent/LoadingComponent'
+import Loading from '../../components/LoadingComponent/Loading'
 import { message } from "antd"
 
 const SignUpPage = () => {
@@ -22,10 +22,10 @@ const SignUpPage = () => {
   const [confirmPassword, setConfirmPassword] = useState('');
 
   const mutation = useMutationHooks(
-    (data) => { return UserService.signupUser(data)}
+    (data) => { return UserService.signupUser(data) }
   )
 
-  const { data, isLoading, isSuccess, isError, error} = mutation
+  const { data, isLoading, isSuccess, isError, error } = mutation
   const handleNavigateSignIn = () => {
     navigate('/sign-in')
   }

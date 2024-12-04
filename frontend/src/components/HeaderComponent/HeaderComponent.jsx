@@ -19,8 +19,8 @@ import { useDispatch, useSelector } from "react-redux";
 import * as UserService from "../../services/UserService";
 import { resetUser } from "../../redux/slices/userSlice";
 import { useState } from "react";
-import Loading from "../LoadingComponent/LoadingComponent";
 import { useEffect } from "react";
+import Loading from "../LoadingComponent/Loading";
 // import { searchProduct } from '../../redux/slides/productSlide';
 
 const HeaderComponent = ({ isHiddenSearch = false, isHiddenCart = false }) => {

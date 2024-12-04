@@ -8,10 +8,10 @@ import { EyeFilled, EyeInvisibleFilled } from '@ant-design/icons'
 import { useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import * as UserService from '../../services/UserService'
-import { useMutationHooks } from '../../hooks/useMutationHooks'
-import Loading from '../../components/LoadingComponent/LoadingComponent'
+import { useMutationHooks } from '../../hooks/useMutationHook'
+import Loading from '../../components/LoadingComponent/Loading'
 import jwt_decode from "jwt-decode";
-import { useDispatch} from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { updateUser } from '../../redux/slices/userSlice'
 import { message } from 'antd'
 
@@ -22,21 +22,21 @@ const SignInPage = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const dispatch = useDispatch();
- 
+
 
   const navigate = useNavigate()
 
   const mutation = useMutationHooks(
     data => UserService.loginUser(data)
   )
-  const { data, isLoading, isSuccess, isError, error} = mutation
+  const { data, isLoading, isSuccess, isError, error } = mutation
 
   useEffect(() => {
     if (isSuccess) {
-        message.success('Đăng nhập thành công!');
-      if(location?.state) {
+      message.success('Đăng nhập thành công!');
+      if (location?.state) {
         navigate(location?.state)
-      }else {
+      } else {
         navigate('/')
       }
       localStorage.setItem('access_token', JSON.stringify(data?.access_token))
@@ -48,9 +48,9 @@ const SignInPage = () => {
         }
       }
     }
-    else if(isError){
+    else if (isError) {
       message.error(error.message);
-        
+
     }
   }, [isSuccess, isError, error])
 

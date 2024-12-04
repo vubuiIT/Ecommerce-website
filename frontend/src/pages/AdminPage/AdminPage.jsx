@@ -17,7 +17,7 @@ import CustomizedContent from "./CustomizedContent";
 import { useSelector } from "react-redux";
 import { useQueries } from "@tanstack/react-query";
 import { useMemo } from "react";
-import Loading from "../../components/LoadingComponent/LoadingComponent";
+import Loading from "../../components/LoadingComponent/Loading";
 
 const AdminPage = () => {
     const user = useSelector((state) => state?.user);
