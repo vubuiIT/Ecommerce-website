@@ -3,6 +3,7 @@ import SignInPage from "../pages/SignInPage/SignInPage";
 import SignUpPage from "../pages/SignUpPage/SignUpPage";
 import AdminPage from "../pages/AdminPage/AdminPage";
 import ProfilePage from "../pages/ProfilePage/ProfilePage";
+import NotFoundPage from "../pages/NotFoundPage/NotFoundPage";
 
 export const routes = [
     {
@@ -29,5 +30,9 @@ export const routes = [
         path: "/profile-user",
         page: ProfilePage,
         isShowHeader: true,
+    },
+    {
+        path: "*",
+        page: NotFoundPage,
     },
 ];
