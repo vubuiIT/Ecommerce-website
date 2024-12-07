@@ -13,6 +13,7 @@ import { useState } from 'react'
 import Loading from '../../components/LoadingComponent/Loading'
 import { useDebounce } from '../../hooks/useDebounce'
 import { useEffect } from 'react'
+import NavBarComponent from "../../components/NavbarComponent/NavBarComponent";
 
 const HomePage = () => {
     const searchProduct = useSelector((state) => state?.product?.search)
@@ -86,6 +87,7 @@ const HomePage = () => {
                             styleTextButton={{ fontWeight: 500, color: products?.total === products?.data?.length && '#fff' }}
                             onClick={() => setLimit((prev) => prev + 6)}
                         />
+
                     </div>
                 </div>
             </div>

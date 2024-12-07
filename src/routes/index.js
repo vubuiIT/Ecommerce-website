@@ -1,6 +1,7 @@
 import HomePage from '../pages/HomePage/HomePage.jsx';
 import ProductDetailsPage from '../pages/ProductDetailsPage/ProductDetailsPage.jsx';
 import NotFoundPage from '../pages/NotFoundPage/NotFoundPage.jsx';
+import TypeProduct from "../pages/TypeProductPage/TypeProduct";
 export const routes = [
     {
         path: '/',
@@ -10,6 +11,11 @@ export const routes = [
     {
         path: '/products_details',
         page: ProductDetailsPage,
+        isShowHeader: true
+    },
+    {
+        path: '/type',
+        page: TypeProduct,
         isShowHeader: true
     },
     {
