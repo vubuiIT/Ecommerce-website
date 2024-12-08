@@ -17,7 +17,7 @@ import ButttonInputSearch from "../ButttonInputSearch/ButttonInputSearch";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import * as UserService from "../../services/UserService";
-import { resetUser } from "../../redux/slices/userSlice";
+import { resetUser } from "../../redux/slides/userSlide";
 import { useState } from "react";
 import { useEffect } from "react";
 import Loading from "../LoadingComponent/Loading";
@@ -129,7 +129,7 @@ const HeaderComponent = ({ isHiddenSearch = false, isHiddenCart = false }) => {
                             textbutton="Tìm kiếm"
                             placeholder="Input search text"
                             // onChange={onSearch}
-                            backgroundColorButton="#5a20c1"
+                            // backgroundColorButton="#5a20c1"
                         />
                     </Col>
                 )}

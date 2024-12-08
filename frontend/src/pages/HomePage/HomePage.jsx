@@ -1,6 +1,5 @@
 // import React from 'react'
 import SliderComponent from '../../components/SliderComponent/SliderComponent'
-import TypeProduct from '../../components/TypeProduct/TypeProduct'
 import { WrapperButtonMore, WrapperProducts, WrapperTypeProduct } from './style'
 import slider1 from '../../assets/images/slider1.webp'
 import slider2 from '../../assets/images/slider2.webp'
@@ -19,6 +18,7 @@ import { getAllProduct, getAllTypeProduct } from "../../services/ProductService"
 import { useQuery } from "@tanstack/react-query"
 import { useSelector } from 'react-redux'
 import Loading from '../../components/LoadingComponent/Loading'
+import TypeProduct from '../../components/TypeProductPage/TypeProductPage'
 
 
 const HomePage = () => {
@@ -54,7 +54,7 @@ const HomePage = () => {
   }, [])
 
 
-  console.log("check products: ", products)
+  // console.log("check products: ", products)
   return (
     <Loading isLoading={isLoading || loading}>
       <div style={{ width: '1270px', margin: '0 auto' }}>

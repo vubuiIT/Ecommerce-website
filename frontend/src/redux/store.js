@@ -1,5 +1,5 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
-import userReducer from "./slices/userSlice.js";
+import userReducer from './slides/userSlide'
 import {
     persistStore,
     persistReducer,

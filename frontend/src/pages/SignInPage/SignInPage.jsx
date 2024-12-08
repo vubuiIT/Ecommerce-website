@@ -12,8 +12,8 @@ import { useMutationHooks } from '../../hooks/useMutationHook'
 import Loading from '../../components/LoadingComponent/Loading'
 import jwt_decode from "jwt-decode";
 import { useDispatch } from 'react-redux'
-import { updateUser } from '../../redux/slices/userSlice'
 import { message } from 'antd'
+import {updateUser} from '../../redux/slides/userSlide'
 
 
 const SignInPage = () => {

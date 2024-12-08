@@ -6,6 +6,11 @@ import ProfilePage from "../pages/ProfilePage/ProfilePage";
 import OrderPage from "../pages/OrderPage/OrderPage";
 import MyOrderPage from "../pages/MyOrder/MyOrder";
 import ProductDetailsPage from "../pages/ProductDetailsPage/ProductDetailsPage";
+import OrderSucess from "../pages/OrderSuccess/OrderSuccess";
+import PaymentPage from "../pages/PaymentPage/PaymentPage";
+import TypeProductPage from "../pages/TypeProductPage/TypeProductPage";
+import NotFoundPage from "../pages/NotFoundPage/NotFoundPage";
+import DetailsOrderPage from "../pages/DetailsOrderPage/DetailsOrderPage";
 
 export const routes = [
     {
@@ -46,6 +51,30 @@ export const routes = [
     {
         path: '/product-details/:id',
         page: ProductDetailsPage,
+        isShowHeader: true
+    },
+    {
+        path: '/orderSuccess',
+        page: OrderSucess,
+        isShowHeader: true
+    },
+    {
+        path: '/payment',
+        page: PaymentPage,
+        isShowHeader: true
+    },
+    {
+        path: '/product/:type',
+        page: TypeProductPage,
+        isShowHeader: true
+    },
+    {
+        path: '*',
+        page: NotFoundPage
+    },
+    {
+        path: '/details-order/:id',
+        page: DetailsOrderPage,
         isShowHeader: true
     },
 ];
