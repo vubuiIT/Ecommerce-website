@@ -17,10 +17,17 @@ import ButttonInputSearch from "../ButttonInputSearch/ButttonInputSearch";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import * as UserService from "../../services/UserService";
+<<<<<<< HEAD
 import { resetUser } from "../../redux/slides/userSlide";
 import { useState } from "react";
 import { useEffect } from "react";
 import Loading from "../LoadingComponent/Loading";
+=======
+import { resetUser } from "../../redux/slices/userSlice";
+import { useState } from "react";
+import Loading from "../LoadingComponent/LoadingComponent";
+import { useEffect } from "react";
+>>>>>>> a1846ea864709c1992d12d3d82beeaa04c2358cb
 // import { searchProduct } from '../../redux/slides/productSlide';
 
 const HeaderComponent = ({ isHiddenSearch = false, isHiddenCart = false }) => {
@@ -129,7 +136,11 @@ const HeaderComponent = ({ isHiddenSearch = false, isHiddenCart = false }) => {
                             textbutton="Tìm kiếm"
                             placeholder="Input search text"
                             // onChange={onSearch}
+<<<<<<< HEAD
                             // backgroundColorButton="#5a20c1"
+=======
+                            backgroundColorButton="#5a20c1"
+>>>>>>> a1846ea864709c1992d12d3d82beeaa04c2358cb
                         />
                     </Col>
                 )}
