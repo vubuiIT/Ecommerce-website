@@ -31,7 +31,7 @@ const createProduct = async (req, res) => {
         return res.status(200).json(response);
     } catch (e) {
         return res.status(404).json({
-            message: e.message || "Internal Server Error",
+            message: e,
         });
     }
 };
@@ -50,7 +50,7 @@ const updateProduct = async (req, res) => {
         return res.status(200).json(response);
     } catch (e) {
         return res.status(404).json({
-            message: e.message || "Internal Server Error",
+            message: e,
         });
     }
 };
@@ -68,7 +68,7 @@ const getDetailsProduct = async (req, res) => {
         return res.status(200).json(response);
     } catch (e) {
         return res.status(404).json({
-            message: e.message || "Internal Server Error",
+            message: e,
         });
     }
 };
@@ -86,7 +86,7 @@ const deleteProduct = async (req, res) => {
         return res.status(200).json(response);
     } catch (e) {
         return res.status(404).json({
-            message: e.message || "Internal Server Error",
+            message: e,
         });
     }
 };
@@ -104,7 +104,7 @@ const deleteMany = async (req, res) => {
         return res.status(200).json(response);
     } catch (e) {
         return res.status(404).json({
-            message: e.message || "Internal Server Error",
+            message: e,
         });
     }
 };
@@ -132,7 +132,7 @@ const getAllType = async (req, res) => {
         return res.status(200).json(response);
     } catch (e) {
         return res.status(404).json({
-            message: e.message || "Internal Server Error",
+            message: e,
         });
     }
 };

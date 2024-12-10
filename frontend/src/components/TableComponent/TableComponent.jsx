@@ -1,6 +1,10 @@
 import { Table } from "antd";
 import React, { useState } from "react";
+<<<<<<< HEAD
+import Loading from "../LoadingComponent/Loading";
+=======
 import Loading from "../../components/LoadingComponent/LoadingComponent";
+>>>>>>> a1846ea864709c1992d12d3d82beeaa04c2358cb
 import { Excel } from "antd-table-saveas-excel";
 import { useMemo } from "react";
 
