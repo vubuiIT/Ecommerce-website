@@ -51,14 +51,14 @@ const ProductDetailsComponent = ({idProduct}) => {
         }
     },[numProduct])
 
-    useEffect(() => {
-        if(order.isSucessOrder) {
-            message.success('Đã thêm vào giỏ hàng')
-        }
-        return () => {
-            dispatch(resetOrder())
-        }
-    }, [order.isSucessOrder])
+    // useEffect(() => {
+    //     if(order.isSucessOrder) {
+    //         message.success('Đã thêm vào giỏ hàng')
+    //     }
+    //     return () => {
+    //         dispatch(resetOrder())
+    //     }
+    // }, [order.isSucessOrder])
 
     const handleChangeCount = (type, limited) => {
         if(type === 'increase') {

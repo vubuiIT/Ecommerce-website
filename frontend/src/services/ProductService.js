@@ -8,6 +8,7 @@ export const getAllProduct = async (search, limit) => {
     } else {
         res = await axios.get(`${process.env.REACT_APP_API_URL}/product/get-all?limit=${limit}`)
     }
+    console.log('res', res.data)
     return res.data
 }
 
