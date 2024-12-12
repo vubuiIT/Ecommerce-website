@@ -1,28 +1,38 @@
-const express = require('express');
-const dotenv = require('dotenv');
-const mongoose = require('mongoose');
-const cors = require('cors');
-const routes = require('./routes');
+const express = require("express");
+const dotenv = require("dotenv");
+const mongoose = require("mongoose");
+const routes = require("./routes");
+const cors = require("cors");
+const cookieParser = require("cookie-parser");
+
 dotenv.config();
-
-
-
 const app = express();
-app.use(cors({
-    origin: 'http://localhost:3000',
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-    credentials: true,
-}));
-app.use(express.json());
 const port = process.env.PORT || 3001;
-const queryString = process.env.MONGODB_URI|| "mongodb+srv://Anhvu200376:w49PYBm7Nyp7ocQx@webhayho.z4duw.mongodb.net/?retryWrites=true&w=majority&appName=webhayho";
-mongoose.connect(queryString, {
-}).then(() => {
-    console.log('Connected to MongoDB');
-}).catch((error) => {
-    console.log('Error:', error);
-})
+
+// Cấu hình CORS
+app.use(cors());
+
+// Cấu hình middleware của express
+app.use(express.json({ limit: "50mb" }));
+app.use(express.urlencoded({ limit: "50mb", extended: true }));
+app.use(cookieParser());
+
+// Định tuyến
 routes(app);
+
+app.get("/", (req, res) => {
+    res.send("Hello World!");
+});
+
+mongoose
+    .connect(`${process.env.MONGODB_URL}`)
+    .then(() => {
+        console.log("Connected to MongoDB");
+    })
+    .catch((error) => {
+        console.log("Error connecting to MongoDB", error.message);
+    });
+
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
-})
+});
