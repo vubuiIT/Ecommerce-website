@@ -16,7 +16,6 @@ import { useEffect } from 'react'
 import * as message from '../Message/Message'
 import LikeButtonComponent from '../LikeButtonComponent/LikeButtonComponent'
 import CommentComponent from '../CommentComponent/CommentComponent'
-import { useMemo } from 'react'
 
 const ProductDetailsComponent = ({idProduct}) => {
     const [numProduct, setNumProduct] = useState(1)
@@ -52,14 +51,14 @@ const ProductDetailsComponent = ({idProduct}) => {
         }
     },[numProduct])
 
-    useEffect(() => {
-        if(order?.isSucessOrder) {
-            message.success('Đã thêm vào giỏ hàng')
-        }
-        return () => {
-            dispatch(resetOrder())
-        }
-    }, [order?.isSucessOrder])
+    // useEffect(() => {
+    //     if(order.isSucessOrder) {
+    //         message.success('Đã thêm vào giỏ hàng')
+    //     }
+    //     return () => {
+    //         dispatch(resetOrder())
+    //     }
+    // }, [order.isSucessOrder])
 
     const handleChangeCount = (type, limited) => {
         if(type === 'increase') {
