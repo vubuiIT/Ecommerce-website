@@ -108,7 +108,9 @@ function App() {
                                     <Route
                                         key={route.path}
                                         path={route.path}
-                                        element={<Navigate to="*" replace />}
+                                        element={
+                                            <Navigate to="not-found" replace />
+                                        }
                                     />
                                 );
                             }

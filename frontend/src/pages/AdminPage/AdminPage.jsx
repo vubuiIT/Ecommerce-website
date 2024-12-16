@@ -9,7 +9,6 @@ import {
 import HeaderComponent from "../../components/HeaderComponent/HeaderComponent";
 import AdminUser from "../../components/AdminUser/AdminUser";
 import AdminProduct from "../../components/AdminProduct/AdminProduct";
-// import OrderAdmin from '../../components/OrderAdmin/OrderAmin';
 import * as OrderService from "../../services/OrderService";
 import * as ProductService from "../../services/ProductService";
 import * as UserService from "../../services/UserService";
@@ -19,7 +18,7 @@ import { useSelector } from "react-redux";
 import { useQueries } from "@tanstack/react-query";
 import { useMemo } from "react";
 import Loading from "../../components/LoadingComponent/Loading";
-import OrderAdmin from "../../components/OrderAdmin/OrderAdmin";
+import AdminOrder from "../../components/AdminOrder/AdminOrder";
 
 const AdminPage = () => {
     const user = useSelector((state) => state?.user);
@@ -71,6 +70,7 @@ const AdminPage = () => {
                     result[query?.data?.key] = query?.data?.data?.length;
                 });
             }
+            console.log("result", result);
             return result;
         } catch (error) {
             return result;
@@ -89,7 +89,7 @@ const AdminPage = () => {
             case "products":
                 return <AdminProduct />;
             case "orders":
-                return <OrderAdmin />;
+                return <AdminOrder />;
             default:
                 return <></>;
         }
