@@ -51,7 +51,6 @@ function App() {
             const refreshToken = JSON.parse(storageRefreshToken);
             const decodedRefreshToken = jwt_decode(refreshToken);
             if (decoded?.exp < currentTime.getTime() / 1000) {
-                console.log(currentTime.getTime() / 1000);
                 if (decodedRefreshToken?.exp > currentTime.getTime() / 1000) {
                     const data = await UserService.refreshToken(refreshToken);
                     config.headers[

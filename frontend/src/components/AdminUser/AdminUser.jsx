@@ -4,7 +4,7 @@ import { WrapperHeader, WrapperUploadFile } from "./style";
 import TableComponent from "../TableComponent/TableComponent";
 import InputComponent from "../InputComponent/InputComponent";
 import DrawerComponent from "../DrawerComponent/DrawerComponent";
-import Loading from "../LoadingComponent/LoadingComponent"
+import Loading from "../LoadingComponent/LoadingComponent";
 import ModalComponent from "../ModalComponent/ModalComponent";
 import { getBase64 } from "../../utils";
 import { useEffect } from "react";
@@ -19,6 +19,7 @@ import {
     EditOutlined,
     SearchOutlined,
 } from "@ant-design/icons";
+import Highlighter from "react-highlight-words";
 
 const AdminUser = () => {
     const [rowSelected, setRowSelected] = useState("");
@@ -26,6 +27,8 @@ const AdminUser = () => {
     const [isLoadingUpdate, setIsLoadingUpdate] = useState(false);
     const [isModalOpenDelete, setIsModalOpenDelete] = useState(false);
     const user = useSelector((state) => state?.user);
+    const [searchText, setSearchText] = useState("");
+    const [searchedColumn, setSearchedColumn] = useState("");
     const searchInput = useRef(null);
 
     const [stateUserDetails, setStateUserDetails] = useState({
@@ -145,12 +148,12 @@ const AdminUser = () => {
 
     const handleSearch = (selectedKeys, confirm, dataIndex) => {
         confirm();
-        // setSearchText(selectedKeys[0]);
-        // setSearchedColumn(dataIndex);
+        setSearchText(selectedKeys[0]);
+        setSearchedColumn(dataIndex);
     };
     const handleReset = (clearFilters) => {
         clearFilters();
-        // setSearchText('');
+        setSearchText("");
     };
 
     const getColumnSearchProps = (dataIndex) => ({
@@ -226,20 +229,20 @@ const AdminUser = () => {
                 setTimeout(() => searchInput.current?.select(), 100);
             }
         },
-        // render: (text) =>
-        //   searchedColumn === dataIndex ? (
-        //     // <Highlighter
-        //     //   highlightStyle={{
-        //     //     backgroundColor: '#ffc069',
-        //     //     padding: 0,
-        //     //   }}
-        //     //   searchWords={[searchText]}
-        //     //   autoEscape
-        //     //   textToHighlight={text ? text.toString() : ''}
-        //     // />
-        //   ) : (
-        //     text
-        //   ),
+        render: (text) =>
+            searchedColumn === dataIndex ? (
+                <Highlighter
+                    highlightStyle={{
+                        backgroundColor: "#ffc069",
+                        padding: 0,
+                    }}
+                    searchWords={[searchText]}
+                    autoEscape
+                    textToHighlight={text ? text.toString() : ""}
+                />
+            ) : (
+                text
+            ),
     });
 
     const columns = [
@@ -266,14 +269,15 @@ const AdminUser = () => {
             dataIndex: "isAdmin",
             filters: [
                 {
-                    text: "True",
-                    value: true,
+                    text: "TRUE",
+                    value: "TRUE",
                 },
                 {
-                    text: "False",
-                    value: false,
+                    text: "FALSE",
+                    value: "FALSE",
                 },
             ],
+            onFilter: (value, record) => record.isAdmin === value,
         },
         {
             title: "Phone",
