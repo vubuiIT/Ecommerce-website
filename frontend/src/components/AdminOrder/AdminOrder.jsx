@@ -239,6 +239,7 @@ const OrderAdmin = () => {
             </div>
             <div style={{ marginTop: "20px" }}>
                 <TableComponent
+                    enableRowSelection={false}
                     columns={columns}
                     isLoading={isLoadingOrders}
                     data={dataTable}

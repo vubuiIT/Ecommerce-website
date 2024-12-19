@@ -538,6 +538,7 @@ const AdminProduct = () => {
             </div>
             <div style={{ marginTop: "20px" }}>
                 <TableComponent
+                    enableRowSelection={true}
                     handleDelteMany={handleDelteManyProducts}
                     columns={columns}
                     isLoading={isLoadingProducts}

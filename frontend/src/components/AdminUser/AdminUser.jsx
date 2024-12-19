@@ -386,6 +386,7 @@ const AdminUser = () => {
             <WrapperHeader>Quản lý người dùng</WrapperHeader>
             <div style={{ marginTop: "20px" }}>
                 <TableComponent
+                    enableRowSelection={true}
                     handleDelteMany={handleDelteManyUsers}
                     columns={columns}
                     data={dataTable}
