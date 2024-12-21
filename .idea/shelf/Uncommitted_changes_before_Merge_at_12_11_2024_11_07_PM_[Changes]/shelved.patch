@@ -1,0 +1,129 @@
+diff --git a/front-end/src/pages/NotFoundPage/NotFoundPage.jsx b/frontend/src/pages/NotFoundPage/NotFoundPage.jsx
+rename from front-end/src/pages/NotFoundPage/NotFoundPage.jsx
+rename to frontend/src/pages/NotFoundPage/NotFoundPage.jsx
+diff --git a/front-end/src/pages/HomePage/HomePage.jsx b/frontend/src/pages/HomePage/HomePage.jsx
+rename from front-end/src/pages/HomePage/HomePage.jsx
+rename to frontend/src/pages/HomePage/HomePage.jsx
+diff --git a/front-end/src/pages/HomePage/style.js b/frontend/src/pages/HomePage/style.js
+rename from front-end/src/pages/HomePage/style.js
+rename to frontend/src/pages/HomePage/style.js
+diff --git a/front-end/src/pages/ProductDetailsPage/ProductDetailsPage.jsx b/frontend/src/pages/ProductDetailsPage/ProductDetailsPage.jsx
+rename from front-end/src/pages/ProductDetailsPage/ProductDetailsPage.jsx
+rename to frontend/src/pages/ProductDetailsPage/ProductDetailsPage.jsx
+diff --git a/front-end/src/pages/DetailsOrderPage/DetailsOrderPage.jsx b/frontend/src/pages/DetailsOrderPage/DetailsOrderPage.jsx
+rename from front-end/src/pages/DetailsOrderPage/DetailsOrderPage.jsx
+rename to frontend/src/pages/DetailsOrderPage/DetailsOrderPage.jsx
+diff --git a/front-end/src/redux/slides/userSlide.js b/frontend/src/redux/slides/userSlide.js
+rename from front-end/src/redux/slides/userSlide.js
+rename to frontend/src/redux/slides/userSlide.js
+diff --git a/front-end/src/redux/slides/orderSlide.js b/frontend/src/redux/slides/orderSlide.js
+rename from front-end/src/redux/slides/orderSlide.js
+rename to frontend/src/redux/slides/orderSlide.js
+diff --git a/front-end/src/redux/slides/productSlide.js b/frontend/src/redux/slides/productSlide.js
+rename from front-end/src/redux/slides/productSlide.js
+rename to frontend/src/redux/slides/productSlide.js
+diff --git a/front-end/package.json b/frontend/package.json
+rename from front-end/package.json
+rename to frontend/package.json
+diff --git a/front-end/src/components/Message/Message.jsx b/frontend/src/components/Message/Message.jsx
+rename from front-end/src/components/Message/Message.jsx
+rename to frontend/src/components/Message/Message.jsx
+diff --git a/front-end/.gitignore b/frontend/.gitignore
+rename from front-end/.gitignore
+rename to frontend/.gitignore
+diff --git a/front-end/src/components/CardComponent/CardComponent.jsx b/frontend/src/components/CardComponent/CardComponent.jsx
+rename from front-end/src/components/CardComponent/CardComponent.jsx
+rename to frontend/src/components/CardComponent/CardComponent.jsx
+diff --git a/front-end/src/App.js b/frontend/src/App.js
+rename from front-end/src/App.js
+rename to frontend/src/App.js
+diff --git a/front-end/src/components/CardComponent/style.js b/frontend/src/components/CardComponent/style.js
+rename from front-end/src/components/CardComponent/style.js
+rename to frontend/src/components/CardComponent/style.js
+diff --git a/front-end/src/App.test.js b/frontend/src/App.test.js
+rename from front-end/src/App.test.js
+rename to frontend/src/App.test.js
+diff --git a/front-end/README.md b/frontend/README.md
+rename from front-end/README.md
+rename to frontend/README.md
+diff --git a/front-end/src/contant.js b/frontend/src/contant.js
+rename from front-end/src/contant.js
+rename to frontend/src/contant.js
+diff --git a/front-end/src/components/HeaderComponent/HeaderComponent.jsx b/frontend/src/components/HeaderComponent/HeaderComponent.jsx
+rename from front-end/src/components/HeaderComponent/HeaderComponent.jsx
+rename to frontend/src/components/HeaderComponent/HeaderComponent.jsx
+diff --git a/front-end/src/components/HeaderComponent/style.js b/frontend/src/components/HeaderComponent/style.js
+rename from front-end/src/components/HeaderComponent/style.js
+rename to frontend/src/components/HeaderComponent/style.js
+diff --git a/front-end/src/components/InputComponent/InputComponent.jsx b/frontend/src/components/InputComponent/InputComponent.jsx
+rename from front-end/src/components/InputComponent/InputComponent.jsx
+rename to frontend/src/components/InputComponent/InputComponent.jsx
+diff --git a/front-end/src/components/ButtonComponent/ButtonComponent.jsx b/frontend/src/components/ButtonComponent/ButtonComponent.jsx
+rename from front-end/src/components/ButtonComponent/ButtonComponent.jsx
+rename to frontend/src/components/ButtonComponent/ButtonComponent.jsx
+diff --git a/front-end/src/components/SliderComponent/SliderComponent.jsx b/frontend/src/components/SliderComponent/SliderComponent.jsx
+rename from front-end/src/components/SliderComponent/SliderComponent.jsx
+rename to frontend/src/components/SliderComponent/SliderComponent.jsx
+diff --git a/front-end/src/components/SliderComponent/style.js b/frontend/src/components/SliderComponent/style.js
+rename from front-end/src/components/SliderComponent/style.js
+rename to frontend/src/components/SliderComponent/style.js
+diff --git a/front-end/src/components/NavbarComponent/NavBarComponent.jsx b/frontend/src/components/NavbarComponent/NavBarComponent.jsx
+rename from front-end/src/components/NavbarComponent/NavBarComponent.jsx
+rename to frontend/src/components/NavbarComponent/NavBarComponent.jsx
+diff --git a/front-end/src/index.css b/frontend/src/index.css
+rename from front-end/src/index.css
+rename to frontend/src/index.css
+diff --git a/front-end/src/components/NavbarComponent/style.js b/frontend/src/components/NavbarComponent/style.js
+rename from front-end/src/components/NavbarComponent/style.js
+rename to frontend/src/components/NavbarComponent/style.js
+diff --git a/front-end/src/index.js b/frontend/src/index.js
+rename from front-end/src/index.js
+rename to frontend/src/index.js
+diff --git a/front-end/src/components/LoadingComponent/Loading.jsx b/frontend/src/components/LoadingComponent/Loading.jsx
+rename from front-end/src/components/LoadingComponent/Loading.jsx
+rename to frontend/src/components/LoadingComponent/Loading.jsx
+diff --git a/front-end/src/utils.js b/frontend/src/utils.js
+rename from front-end/src/utils.js
+rename to frontend/src/utils.js
+diff --git a/front-end/src/components/CommentComponent/CommentComponent.jsx b/frontend/src/components/CommentComponent/CommentComponent.jsx
+rename from front-end/src/components/CommentComponent/CommentComponent.jsx
+rename to frontend/src/components/CommentComponent/CommentComponent.jsx
+diff --git a/front-end/src/reportWebVitals.js b/frontend/src/reportWebVitals.js
+rename from front-end/src/reportWebVitals.js
+rename to frontend/src/reportWebVitals.js
+diff --git a/front-end/src/components/DefaultComponent/DefaultComponent.jsx b/frontend/src/components/DefaultComponent/DefaultComponent.jsx
+rename from front-end/src/components/DefaultComponent/DefaultComponent.jsx
+rename to frontend/src/components/DefaultComponent/DefaultComponent.jsx
+diff --git a/front-end/src/components/ProductDetailsComponent/style.js b/frontend/src/components/ProductDetailsComponent/style.js
+rename from front-end/src/components/ProductDetailsComponent/style.js
+rename to frontend/src/components/ProductDetailsComponent/style.js
+diff --git a/front-end/src/components/LikeButtonComponent/LikeButtonComponent.jsx b/frontend/src/components/LikeButtonComponent/LikeButtonComponent.jsx
+rename from front-end/src/components/LikeButtonComponent/LikeButtonComponent.jsx
+rename to frontend/src/components/LikeButtonComponent/LikeButtonComponent.jsx
+diff --git a/front-end/src/components/ProductDetailsComponent/ProductDetailsComponent.jsx b/frontend/src/components/ProductDetailsComponent/ProductDetailsComponent.jsx
+rename from front-end/src/components/ProductDetailsComponent/ProductDetailsComponent.jsx
+rename to frontend/src/components/ProductDetailsComponent/ProductDetailsComponent.jsx
+diff --git a/front-end/public/index.html b/frontend/public/index.html
+rename from front-end/public/index.html
+rename to frontend/public/index.html
+diff --git a/front-end/src/hooks/useDebounce.js b/frontend/src/hooks/useDebounce.js
+rename from front-end/src/hooks/useDebounce.js
+rename to frontend/src/hooks/useDebounce.js
+diff --git a/front-end/public/manifest.json b/frontend/public/manifest.json
+rename from front-end/public/manifest.json
+rename to frontend/public/manifest.json
+diff --git a/front-end/public/robots.txt b/frontend/public/robots.txt
+rename from front-end/public/robots.txt
+rename to frontend/public/robots.txt
+diff --git a/front-end/src/routes/index.js b/frontend/src/routes/index.js
+rename from front-end/src/routes/index.js
+rename to frontend/src/routes/index.js
+diff --git a/front-end/src/redux/store.js b/frontend/src/redux/store.js
+rename from front-end/src/redux/store.js
+rename to frontend/src/redux/store.js
+diff --git a/front-end/src/services/ProductService.js b/frontend/src/services/ProductService.js
+rename from front-end/src/services/ProductService.js
+rename to frontend/src/services/ProductService.js
+diff --git a/front-end/src/services/UserService.js b/frontend/src/services/UserService.js
+rename from front-end/src/services/UserService.js
+rename to frontend/src/services/UserService.js

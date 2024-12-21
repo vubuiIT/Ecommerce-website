@@ -14,7 +14,7 @@ import {
     ShoppingCartOutlined,
 } from "@ant-design/icons";
 import ButttonInputSearch from "../ButttonInputSearch/ButttonInputSearch";
-import { useNavigate } from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import * as UserService from "../../services/UserService";
 import Loading from "../LoadingComponent/Loading";
@@ -119,7 +119,9 @@ const HeaderComponent = ({ isHiddenSearch = false, isHiddenCart = false }) => {
                 }}
             >
                 <Col span={5}>
-                    <WrapperTextHeader to="/">SHOP</WrapperTextHeader>
+                    <Link to="/">
+                        <img src="assets/images/logo/logo_trans.png" alt="Logo" style={{ height: '50px' }} />
+                    </Link>
                 </Col>
                 {!isHiddenSearch && (
                     <Col span={13}>
