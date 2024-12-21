@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="25e74ef8-9951-4c8b-809b-ddfcdd10f87d" name="Changes" comment="Add footer and add logo app">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_11_2024_11_07_PM_[Changes]/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_11_2024_11_07_PM_[Changes]/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_11_2024_11_07_PM_[Changes]/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_11_2024_11_07_PM_[Changes]/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_11_2024_11_07_PM_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_11_2024_11_07_PM_[Changes]/slider1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_11_2024_11_07_PM_[Changes]/slider2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_11_2024_11_07_PM_[Changes]/slider3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_11_2024_11_07_PM__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/css/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/css/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/css/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/bg/banner-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/bg/banner-bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/bg/banner-two-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/bg/big-deal-pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/bg/body-bottom-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/bg/day-sale-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/bg/deal-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/bg/delivery-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/bg/details-offer-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/bg/discount-bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/bg/discount-bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/bg/expensive-offer-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/bg/featured-product-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/bg/flash-sale-bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/bg/flash-sale-bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/bg/newsletter-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/bg/noen_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/bg/promo-bg-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/bg/promo-bg-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/bg/promo-bg-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/bg/recommended-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/bg/special-snacks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/bg/week-deal-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/icon/envelop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/icon/preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/icon/satisfaction-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/logo/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/logo/logo-two-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/logo/logo-two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/logo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/logo/logo_trans.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/shape/box-shape2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/shape/offer-shape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/advertise-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/appstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/banner-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/banner-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/banner-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/banner-img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/banner-two-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/banner-two-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/best-sell1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/best-sell2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/best-sell3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/best-sell4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/big-deal1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/big-deal2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/blog-details-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/blog-details-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/blog-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/blog-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/blog-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/brand-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/brand-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/brand-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/brand-img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/brand-img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/brand-img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/brand-img7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/brand-img8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/comment-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/comment-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/comment-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/comment-img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/comment-img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/day-sale-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/day-sale-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/deal-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/delivery-man.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/discount-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/discount-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/expensive-offer1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/expensive-offer2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/feature-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/feature-img10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/feature-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/feature-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/feature-img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/feature-img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/feature-img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/feature-img7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/feature-img8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/feature-img9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/featured-product-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/flag1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/flag2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/flag3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/flag4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/flag5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/flag6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/flash-sale-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/flash-sale-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/gateway-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/hot-deals-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/newsletter-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/offer-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/offer-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/offer-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/payment-method.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/popular-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/popular-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/popular-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/popular-img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/popular-img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/popular-img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/popular-img7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/popular-img8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-details-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-details-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-details-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-details-thumb1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-details-thumb2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-details-thumb3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-details-two-thumb1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-details-two-thumb2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-details-two-thumb3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-img10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-img11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-img12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-img13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-img14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-img15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-img16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-img17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-img18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-img19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-img20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-img21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-img22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-img23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-img24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-img25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-img7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-img8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-img9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-two-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-two-img10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-two-img11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-two-img12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-two-img13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-two-img14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-two-img15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-two-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-two-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-two-img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-two-img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-two-img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-two-img7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-two-img8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/product-two-img9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/promo-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/promo-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/promo-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/promotional-banner-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/promotional-banner-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/promotional-banner-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/promotional-banner-img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/recent-post1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/recent-post2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/recent-post3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/recent-post4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/recommended-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/short-product-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/short-product-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/short-product-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/short-product-img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/short-product-img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/short-product-img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/short-product-img7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/short-product-img8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/short-product-img9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/special-snacks-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/store-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/store-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/top-brand-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/top-brand-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/top-brand-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/top-brand-img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/top-brand-img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/top-brand-img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/top-brand-img7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/top-brand-img8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/trending-products-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/trending-products-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/vendor-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/vendor-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/vendor-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/vendor-img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/vendor-img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/vendor-logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/vendor-logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/vendor-logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/vendor-logo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/vendor-logo5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/vendor-logo6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/vendor-logo7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/vendor-logo8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/vendor-two-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/vendor-two-img10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/vendor-two-img11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/vendor-two-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/vendor-two-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/vendor-two-img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/vendor-two-img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/vendor-two-img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/vendor-two-img7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/vendor-two-img8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/vendor-two-img9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/week-deal-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/images/thumbs/week-deal-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/_extra.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/abstracts/_css-index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/abstracts/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/abstracts/_index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/abstracts/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/abstracts/_variable.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/components/_accordion.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/components/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/components/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/components/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/components/_countdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/components/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/components/_index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/components/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/components/_range-slider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/components/_select2.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/components/_tab.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/components/_table.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/layout/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/layout/_header-middle.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/layout/_header-top.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/layout/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/layout/_index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/layout/_mobile-nav-menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/layout/_preloader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/layout/_scroll-top.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/layout/_search-form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/layout/_section-heading.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/layout/_slick.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/_index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/home-two/_banner-two.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/home-two/_color-two.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/home-two/_day-sale.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/home-two/_deals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/home-two/_discount.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/home-two/_featured-products.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/home-two/_index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/home-two/_popular-products.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/home-two/_top-brand.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/home-two/_trending-products.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/home/_banner.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/home/_brand.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/home/_delivery.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/home/_feature.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/home/_flash-sales.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/home/_index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/home/_newsletter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/home/_offer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/home/_product-card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/home/_promotional-banner.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/home/_shipping.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/home/_short-product.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/home/_vendor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/othersPage/_blog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/othersPage/_cart.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/othersPage/_checkout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/othersPage/_index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/othersPage/_product-details.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/partials/othersPage/_shop.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/utilities/_bg.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/utilities/_border.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/utilities/_classes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/utilities/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/utilities/_extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/utilities/_font-size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/utilities/_gap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/utilities/_gutter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/utilities/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/utilities/_index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/utilities/_line-clamp.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/utilities/_margin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/utilities/_overlay.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/utilities/_padding.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/utilities/_radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/utilities/_scroll-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/utilities/_scrollbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/utilities/_shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/utilities/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/sass/utilities/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/webfonts/fa-v4compatibility.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/webfonts/fa-v4compatibility.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/css/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/css/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/css/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/bg/banner-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/bg/banner-bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/bg/banner-two-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/bg/big-deal-pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/bg/body-bottom-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/bg/day-sale-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/bg/deal-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/bg/delivery-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/bg/details-offer-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/bg/discount-bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/bg/discount-bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/bg/expensive-offer-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/bg/featured-product-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/bg/flash-sale-bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/bg/flash-sale-bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/bg/newsletter-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/bg/promo-bg-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/bg/promo-bg-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/bg/promo-bg-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/bg/recommended-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/bg/special-snacks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/bg/week-deal-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/icon/envelop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/icon/preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/icon/satisfaction-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/logo/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/logo/logo-two-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/logo/logo-two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/logo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape/box-shape2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/shape/offer-shape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/advertise-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/banner-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/banner-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/banner-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/banner-img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/banner-two-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/banner-two-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/best-sell1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/best-sell2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/best-sell3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/best-sell4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/big-deal1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/big-deal2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/blog-details-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/blog-details-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/blog-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/blog-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/blog-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/brand-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/brand-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/brand-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/brand-img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/brand-img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/brand-img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/brand-img7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/brand-img8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/comment-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/comment-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/comment-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/comment-img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/comment-img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/day-sale-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/day-sale-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/deal-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/delivery-man.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/discount-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/discount-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/expensive-offer1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/expensive-offer2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/feature-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/feature-img10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/feature-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/feature-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/feature-img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/feature-img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/feature-img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/feature-img7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/feature-img8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/feature-img9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/featured-product-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/flag1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/flag2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/flag3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/flag4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/flag5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/flag6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/flash-sale-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/flash-sale-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/gateway-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/hot-deals-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/newsletter-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/offer-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/offer-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/offer-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/payment-method.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/popular-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/popular-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/popular-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/popular-img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/popular-img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/popular-img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/popular-img7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/popular-img8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-details-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-details-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-details-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-details-thumb1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-details-thumb2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-details-thumb3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-details-two-thumb1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-details-two-thumb2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-details-two-thumb3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-img10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-img11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-img12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-img13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-img14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-img15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-img16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-img17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-img18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-img19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-img20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-img21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-img22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-img23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-img24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-img25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-img7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-img8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-img9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-two-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-two-img10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-two-img11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-two-img12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-two-img13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-two-img14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-two-img15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-two-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-two-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-two-img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-two-img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-two-img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-two-img7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-two-img8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/product-two-img9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/promo-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/promo-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/promo-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/promotional-banner-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/promotional-banner-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/promotional-banner-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/promotional-banner-img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/recent-post1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/recent-post2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/recent-post3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/recent-post4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/recommended-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/short-product-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/short-product-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/short-product-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/short-product-img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/short-product-img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/short-product-img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/short-product-img7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/short-product-img8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/short-product-img9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/special-snacks-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/store-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/store-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/top-brand-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/top-brand-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/top-brand-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/top-brand-img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/top-brand-img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/top-brand-img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/top-brand-img7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/top-brand-img8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/trending-products-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/trending-products-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/vendor-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/vendor-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/vendor-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/vendor-img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/vendor-img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/vendor-logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/vendor-logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/vendor-logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/vendor-logo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/vendor-logo5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/vendor-logo6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/vendor-logo7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/vendor-logo8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/vendor-two-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/vendor-two-img10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/vendor-two-img11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/vendor-two-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/vendor-two-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/vendor-two-img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/vendor-two-img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/vendor-two-img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/vendor-two-img7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/vendor-two-img8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/vendor-two-img9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/week-deal-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/thumbs/week-deal-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/webfonts/fa-v4compatibility.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/webfonts/fa-v4compatibility.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/FooterComponent/FooterOne.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/FooterComponent/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/detect-libc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/detect-libc.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/detect-libc.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/sass.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/sass.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher-win32-x64/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher-win32-x64/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher-win32-x64/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher-win32-x64/watcher.node" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/binding.gyp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/index.js.flow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/scripts/build-from-source.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/Backend.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/Backend.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/Debounce.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/Debounce.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/DirTree.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/DirTree.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/Event.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/Glob.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/Glob.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/PromiseRunner.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/Signal.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/Watcher.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/Watcher.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/binding.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/kqueue/KqueueBackend.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/kqueue/KqueueBackend.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/linux/InotifyBackend.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/linux/InotifyBackend.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/macos/FSEventsBackend.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/macos/FSEventsBackend.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/shared/BruteForceBackend.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/shared/BruteForceBackend.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/unix/fts.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/unix/legacy.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/wasm/WasmBackend.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/wasm/WasmBackend.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/wasm/include.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/watchman/BSER.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/watchman/BSER.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/watchman/IPC.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/watchman/WatchmanBackend.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/watchman/WatchmanBackend.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/windows/WindowsBackend.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/windows/WindowsBackend.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/windows/win_utils.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/src/windows/win_utils.hh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@parcel/watcher/wrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/braces/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/braces/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/braces/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/braces/lib/compile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/braces/lib/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/braces/lib/expand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/braces/lib/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/braces/lib/stringify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/braces/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/braces/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/esm/handler.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/esm/handler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/esm/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/esm/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/esm/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/handler.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/handler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/detect-libc/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/detect-libc/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/detect-libc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/detect-libc/bin/detect-libc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/detect-libc/lib/detect-libc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/detect-libc/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fill-range/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fill-range/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fill-range/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fill-range/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/immutable/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/immutable/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/immutable/dist/immutable.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/immutable/dist/immutable.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/immutable/dist/immutable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/immutable/dist/immutable.js.flow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/immutable/dist/immutable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/immutable/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-extglob/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-extglob/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-extglob/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-extglob/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-glob/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-glob/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-glob/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-glob/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-number/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-number/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-number/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-number/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/micromatch/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/micromatch/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/micromatch/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/micromatch/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-addon-api/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-addon-api/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-addon-api/common.gypi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-addon-api/except.gypi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-addon-api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-addon-api/napi-inl.deprecated.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-addon-api/napi-inl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-addon-api/napi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-addon-api/node_addon_api.gyp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-addon-api/node_api.gyp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-addon-api/noexcept.gypi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-addon-api/nothing.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-addon-api/package-support.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-addon-api/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-addon-api/tools/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-addon-api/tools/check-napi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-addon-api/tools/clang-format.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-addon-api/tools/conversion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-addon-api/tools/eslint-format.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/picomatch/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/picomatch/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/picomatch/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/picomatch/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/picomatch/lib/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/picomatch/lib/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/picomatch/lib/picomatch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/picomatch/lib/scan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/picomatch/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/picomatch/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/esm/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/esm/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/esm/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/sass.dart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/sass.default.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/sass.default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/sass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/sass.node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/sass.node.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/compile.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/deprecations.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/exception.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/importer.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/legacy/exception.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/legacy/function.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/legacy/importer.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/legacy/options.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/legacy/plugin_this.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/legacy/render.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/logger/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/logger/source_location.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/logger/source_span.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/options.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/util/promise_or.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/value/argument_list.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/value/boolean.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/value/calculation.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/value/color.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/value/function.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/value/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/value/list.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/value/map.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/value/mixin.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/value/number.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sass/types/value/string.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/source-map-js/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/source-map-js/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/source-map-js/lib/array-set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/source-map-js/lib/base64-vlq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/source-map-js/lib/base64.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/source-map-js/lib/binary-search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/source-map-js/lib/mapping-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/source-map-js/lib/quick-sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/source-map-js/lib/source-map-consumer.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/source-map-js/lib/source-map-consumer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/source-map-js/lib/source-map-generator.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/source-map-js/lib/source-map-generator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/source-map-js/lib/source-node.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/source-map-js/lib/source-node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/source-map-js/lib/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/source-map-js/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/source-map-js/source-map.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/source-map-js/source-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/to-regex-range/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/to-regex-range/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/to-regex-range/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/to-regex-range/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/HeaderComponent/HeaderComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/HeaderComponent/HeaderComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/NavbarComponent/NavBarComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/NavbarComponent/NavBarComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JSX File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vubuiIT&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/vubuiIT/Ecommerce-website.git&quot;,
+    &quot;accountId&quot;: &quot;b828cb69-ec27-4b3c-9148-a15f8a8a0815&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2nhWF2MlkfzzjtDxlgEq7ON3W9R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "devMainPage",
+    "last_opened_file_path": "D:/2024.1/Web/BTL/EcommerceWebsite/Ecommerce-master/frontend/public/assets/images/thumbs",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.start.executor": "Run",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2024.1\Web\BTL\EcommerceWebsite\Ecommerce-master\frontend\public\assets\images\thumbs" />
+      <recent name="D:\2024.1\Web\BTL\EcommerceWebsite\Ecommerce-master\frontend\public\assets\images\logo" />
+      <recent name="D:\2024.1\Web\BTL\EcommerceWebsite\Ecommerce-master\frontend\src\components\FooterComponent" />
+      <recent name="D:\2024.1\Web\BTL\EcommerceWebsite\Ecommerce-master\front-end\src\assets\images" />
+      <recent name="D:\2024.1\Web\BTL\EcommerceWebsite\Ecommerce-master\backend\src\services" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\2024.1\Web\BTL\EcommerceWebsite\Ecommerce-master\frontend\public\assets\images\logo" />
+      <recent name="D:\2024.1\Web\BTL\EcommerceWebsite\Ecommerce-master\frontend\public\assets\images\bg" />
+      <recent name="D:\2024.1\Web\BTL\EcommerceWebsite\Ecommerce-master\backend" />
+      <recent name="D:\2024.1\Web\BTL\EcommerceWebsite\Ecommerce-master\front-end" />
+      <recent name="D:\2024.1\Web\BTL\EcommerceWebsite\Ecommerce-master\src\components\CardComponent" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25e74ef8-9951-4c8b-809b-ddfcdd10f87d" name="Changes" comment="" />
+      <created>1729425682481</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729425682481</updated>
+      <workItem from="1729425683741" duration="1597000" />
+      <workItem from="1732655794897" duration="4890000" />
+      <workItem from="1732670717846" duration="150000" />
+      <workItem from="1733113731837" duration="17434000" />
+      <workItem from="1733385537785" duration="4112000" />
+      <workItem from="1733555805476" duration="13647000" />
+      <workItem from="1733839567191" duration="400000" />
+      <workItem from="1733913897869" duration="1057000" />
+      <workItem from="1733915056862" duration="10482000" />
+      <workItem from="1733932573449" duration="1012000" />
+      <workItem from="1733933616084" duration="2548000" />
+      <workItem from="1733936530273" duration="368000" />
+      <workItem from="1733998732625" duration="1121000" />
+      <workItem from="1733999895452" duration="2239000" />
+      <workItem from="1734134497121" duration="10766000" />
+      <workItem from="1734690175129" duration="11874000" />
+    </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1729425839528</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729425839528</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update README.md">
+      <option name="closed" value="true" />
+      <created>1729426083763</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729426083763</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Setup redux, create routes, components and pages">
+      <option name="closed" value="true" />
+      <created>1732660474966</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732660474966</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Header front-end develop 1.0">
+      <option name="closed" value="true" />
+      <created>1733122474168</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733122474168</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Header front-end develop 1.0">
+      <option name="closed" value="true" />
+      <created>1733122486282</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733122486282</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Homepage front-end develop">
+      <option name="closed" value="true" />
+      <created>1733390749184</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733390749184</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Type product page dev">
+      <option name="closed" value="true" />
+      <created>1733561810781</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733561810781</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update UI for product page detail">
+      <option name="closed" value="true" />
+      <created>1733737201848</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733737201848</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Move file">
+      <option name="closed" value="true" />
+      <created>1733914884678</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733914884678</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add backend section">
+      <option name="closed" value="true" />
+      <created>1733915165511</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733915165511</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Change folder-name">
+      <option name="closed" value="true" />
+      <created>1733934004612</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733934004612</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Done home page backend and product details page backend">
+      <option name="closed" value="true" />
+      <created>1733999226719</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733999226719</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Update backend file">
+      <option name="closed" value="true" />
+      <created>1733999408442</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733999408442</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Update assert images">
+      <option name="closed" value="true" />
+      <created>1733999460395</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1733999460395</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Fix conflict code">
+      <option name="closed" value="true" />
+      <created>1734000958130</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1734000958130</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add search button">
+      <option name="closed" value="true" />
+      <created>1734136948538</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1734136948538</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="devMainPage" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <MESSAGE value="Update README.md" />
+    <MESSAGE value="Setup redux, create routes, components and pages" />
+    <MESSAGE value="Header front-end develop 1.0" />
+    <MESSAGE value="Homepage front-end develop" />
+    <MESSAGE value="Type product page dev" />
+    <MESSAGE value="Update UI for product page detail" />
+    <MESSAGE value="Move file" />
+    <MESSAGE value="Add backend section" />
+    <MESSAGE value="Change folder-name" />
+    <MESSAGE value="Done home page backend and product details page backend" />
+    <MESSAGE value="Update backend file" />
+    <MESSAGE value="Update assert images" />
+    <MESSAGE value="Fix conflict code" />
+    <MESSAGE value="Add search button" />
+    <MESSAGE value="Add footer and add logo app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add footer and add logo app" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/src/index.js</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/frontend/src/components/AdminProduct/AdminProduct.jsx</url>
+          <line>680</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/frontend/src/pages/MyOrder/MyOrder.jsx</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
