@@ -65,6 +65,19 @@ const loginUser = async (req, res) => {
     }
 };
 
+const loginWithGoogle = async (req, res) => {
+    const { tokenId } = req.body;
+    try {
+        const response = await UserService.loginWithGoogle(tokenId);
+        return res.status(200).json(response);
+    } catch (e) {
+        return res.status(500).json({
+            status: "ERR",
+            message: e.message || "Internal Server Error",
+        });
+    }
+};
+
 const updateUser = async (req, res) => {
     try {
         const userId = req.params.id;
@@ -185,6 +198,7 @@ const deleteMany = async (req, res) => {
 module.exports = {
     createUser,
     loginUser,
+    loginWithGoogle,
     updateUser,
     getDetailsUser,
     refreshToken,

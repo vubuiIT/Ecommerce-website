@@ -11,8 +11,11 @@ const TableComponent = (props) => {
         isLoading = false,
         columns = [],
         handleDelteMany,
+        enableRowSelection = false, // Prop để bật/tắt checkbox
     } = props;
+
     const [rowSelectedKeys, setRowSelectedKeys] = useState([]);
+
     const newColumnExport = useMemo(() => {
         const arr = columns?.filter((col) => col.dataIndex !== "action");
         return arr;
@@ -22,15 +25,12 @@ const TableComponent = (props) => {
         onChange: (selectedRowKeys, selectedRows) => {
             setRowSelectedKeys(selectedRowKeys);
         },
-        // getCheckboxProps: (record) => ({
-        //   disabled: record.name === 'Disabled User',
-        //   // Column configuration not to be checked
-        //   name: record.name,
-        // }),
     };
+
     const handleDeleteAll = () => {
         handleDelteMany(rowSelectedKeys);
     };
+
     const exportExcel = () => {
         const excel = new Excel();
         excel
@@ -44,7 +44,7 @@ const TableComponent = (props) => {
 
     return (
         <Loading isLoading={isLoading}>
-            {!!rowSelectedKeys.length && (
+            {!!rowSelectedKeys.length && enableRowSelection && (
                 <div
                     style={{
                         color: "red",
@@ -67,13 +67,17 @@ const TableComponent = (props) => {
                 Export Excel
             </button>
             <Table
-                rowSelection={{
-                    type: selectionType,
-                    ...rowSelection,
-                }}
+                {...props}
+                rowSelection={
+                    enableRowSelection
+                        ? {
+                              type: selectionType,
+                              ...rowSelection,
+                          }
+                        : undefined
+                }
                 columns={columns}
                 dataSource={dataSource}
-                {...props}
             />
         </Loading>
     );

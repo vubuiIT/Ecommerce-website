@@ -15,73 +15,86 @@ import TypeProductPage from "../pages/TypeProductPage/TypeProductPage";
 
 export const routes = [
     {
-        path: '/',
+        path: "/",
         page: HomePage,
-        isShowHeader: true
+        isShowHeader: true,
+        isPrivated: false,
     },
     {
-        path: '/order',
+        path: "/order",
         page: OrderPage,
-        isShowHeader: true
+        isShowHeader: true,
+        isPrivated: false,
     },
     {
-        path: '/my-order',
+        path: "/my-order",
         page: MyOrderPage,
-        isShowHeader: true
+        isShowHeader: true,
+        isPrivated: false,
     },
     {
-        path: '/details-order/:id',
+        path: "/details-order/:id",
         page: DetailsOrderPage,
-        isShowHeader: true
+        isShowHeader: true,
+        isPrivated: false,
     },
     {
-        path: '/payment',
+        path: "/payment",
         page: PaymentPage,
-        isShowHeader: true
+        isShowHeader: true,
+        isPrivated: false,
     },
     {
-        path: '/orderSuccess',
+        path: "/orderSuccess",
         page: OrderSucess,
-        isShowHeader: true
+        isShowHeader: true,
+        isPrivated: false,
     },
     {
-        path: '/products',
+        path: "/products",
         page: ProductsPage,
-        isShowHeader: true
+        isShowHeader: true,
+        isPrivated: false,
     },
     {
-        path: '/product/:type',
+        path: "/product/:type",
         page: TypeProductPage,
-        isShowHeader: true
+        isShowHeader: true,
+        isPrivated: false,
     },
     {
-        path: '/sign-in',
+        path: "/sign-in",
         page: SignInPage,
-        isShowHeader: false
+        isShowHeader: false,
+        isPrivated: false,
     },
     {
-        path: '/sign-up',
+        path: "/sign-up",
         page: SignUpPage,
-        isShowHeader: false
+        isShowHeader: false,
+        isPrivated: false,
     },
     {
-        path: '/product-details/:id',
+        path: "/product-details/:id",
         page: ProductDetailsPage,
-        isShowHeader: true
+        isShowHeader: true,
+        isPrivated: false,
     },
     {
-        path: '/profile-user',
+        path: "/profile-user",
         page: ProfilePage,
-        isShowHeader: true
+        isShowHeader: true,
+        isPrivated: false,
     },
     {
-        path: '/system/admin',
+        path: "/system/admin",
         page: AdminPage,
         isShowHeader: false,
-        isPrivated: true
+        isPrivated: true,
     },
     {
-        path: '*',
-        page: NotFoundPage
-    }
-]
+        path: "*",
+        page: NotFoundPage,
+        isPrivated: false,
+    },
+];

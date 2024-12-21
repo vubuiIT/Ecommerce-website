@@ -1,5 +1,11 @@
 import React, { Fragment, useEffect, useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    useNavigate,
+    Navigate,
+} from "react-router-dom";
 import DefaultComponent from "./components/DefaultComponent/DefaultComponent";
 import { routes } from "./routes";
 import { isJsonString } from "./utils";
@@ -14,6 +20,9 @@ function App() {
     const dispatch = useDispatch();
     const [isLoading, setIsLoading] = useState(false);
     const user = useSelector((state) => state.user);
+    const isLoggedIn = !!(
+        user?.access_token || localStorage.getItem("access_token")
+    );
 
     useEffect(() => {
         setIsLoading(true);
@@ -43,7 +52,6 @@ function App() {
             const refreshToken = JSON.parse(storageRefreshToken);
             const decodedRefreshToken = jwt_decode(refreshToken);
             if (decoded?.exp < currentTime.getTime() / 1000) {
-                console.log(currentTime.getTime() / 1000);
                 if (decodedRefreshToken?.exp > currentTime.getTime() / 1000) {
                     const data = await UserService.refreshToken(refreshToken);
                     config.headers[
@@ -79,10 +87,42 @@ function App() {
                 <Router>
                     <Routes>
                         {routes.map((route) => {
+                            if (
+                                isLoggedIn &&
+                                ["/sign-in", "/sign-up"].includes(route.path)
+                            ) {
+                                return (
+                                    <Route
+                                        key={route.path}
+                                        path={route.path}
+                                        element={<Navigate to="/" replace />}
+                                    />
+                                );
+                            }
+
+                            if (
+                                route.path === "/system/admin" &&
+                                !user.isAdmin
+                            ) {
+                                return (
+                                    <Route
+                                        key={route.path}
+                                        path={route.path}
+                                        element={
+                                            <Navigate to="not-found" replace />
+                                        }
+                                    />
+                                );
+                            }
+
                             const Page = route.page;
+
+                            const isCheckAuth =
+                                !route.isPrivated || user.isAdmin;
                             const Layout = route.isShowHeader
                                 ? DefaultComponent
                                 : Fragment;
+
                             return (
                                 <Route
                                     key={route.path}
