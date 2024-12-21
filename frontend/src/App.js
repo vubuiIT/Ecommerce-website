@@ -14,6 +14,7 @@ import * as UserService from "./services/UserService";
 import { useDispatch, useSelector } from "react-redux";
 import { resetUser, updateUser } from "./redux/slices/userSlice";
 import Loading from "./components/LoadingComponent/LoadingComponent";
+import Footer from "./components/FooterComponent/FooterOne";
 
 function App() {
     const dispatch = useDispatch();
@@ -129,6 +130,7 @@ function App() {
                                     element={
                                         <Layout>
                                             <Page />
+                                            <Footer />
                                         </Layout>
                                     }
                                 />

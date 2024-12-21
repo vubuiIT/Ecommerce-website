@@ -1,0 +1,13 @@
+.footer {
+    text-align: center;
+    font-size: 1.2rem; /* Increase font size */
+}
+
+.footer-item__title {
+    font-size: 1.5rem; /* Increase title font size */
+}
+
+.footer-item p,
+.footer-item a {
+    font-size: 1.2rem; /* Increase paragraph and link font size */
+}
