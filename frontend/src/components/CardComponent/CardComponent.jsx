@@ -20,17 +20,6 @@ const CardComponent = (props) => {
             cover={<img alt="example" src={image} />}
             onClick={() =>  handleDetailsProduct(id)}
         >
-            <img
-                src={logo}
-                style={{
-                    width: '68px',
-                    height: '14px',
-                    position: 'absolute',
-                    top: -1,
-                    left: -1,
-                    borderTopLeftRadius: '3px'
-                }}
-            />
             <StyleNameProduct>{name}</StyleNameProduct>
             <WrapperReportText>
                 <span style={{ marginRight: '4px' }}>
